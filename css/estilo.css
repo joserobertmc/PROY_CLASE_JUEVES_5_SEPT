@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+}
+.caja1
+{
+    background-color: red;
+    width: 150px; height: 150px;
+    position: fixed;
+    /*top: 250px;
+    left: 250px; */
+    right: 250px;
+    bottom: 250px;
+    
+
+}
+.caja2
+{
+    background-color: yellow;
+    width: 150px; height: 150px;
+    position: static;
+    /*left: 200px; no se necesita porque es estatico por defecto*/
+    /*top: 200px; no se necesita porque es estatico por defecto*/
+    transform: rotate(45deg); /* deg = grados*/
+}
+.caja3
+{
+    background-color: green;
+    width: 150px; height: 150px;
+    position: relative; /*para cajas padre*/
+    left: 50px;
+    top: 50px;
+}
+.caja4
+{
+    background-color: aquamarine;
+    width: 150px; height: 150px;
+    position: absolute; /*para cajas hijos*/
+    top: 100px;
+    left: 200px;
+}
+.caja5
+{
+    background-color: rgb(221, 129, 24);
+    width: 150px; height: 150px;
+    position: sticky;
+    bottom: 50px;
+    left: 50px;
+}
