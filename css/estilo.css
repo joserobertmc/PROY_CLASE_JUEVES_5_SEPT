@@ -31,6 +31,14 @@
     left: 50px;
     top: 50px;
 }
+.caja3-1
+{
+    background-color: rgb(176, 38, 189);
+    width: 50px; height: 50px;
+    position: absolute; /*para cajas padre*/
+    left: 50px;
+    top: 50px;
+}
 .caja4
 {
     background-color: aquamarine;
@@ -45,5 +53,5 @@
     width: 150px; height: 150px;
     position: sticky;
     bottom: 50px;
-    left: 50px;
+    left: 500px;
 }
